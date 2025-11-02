@@ -1,7 +1,12 @@
 # Aadhaar Masker — YOLOv8 + Tesseract + FastAPI
 
+
 <p align="center">
-  <img src="demo_aadhaar_masking.png" alt="Aadhaar Masking Demo" width="600"/>
+  <img src="img1.png" alt="Aadhaar Masking Demo 1" width="700"/>
+  <br/>
+  <img src="img2.png" alt="Aadhaar Masking Demo 2" width="700"/>
+  <br/>
+  <img src="img3.png" alt="Aadhaar Masking Demo 3" width="700"/>
 </p>
 
 **Aadhaar Masker** is a FastAPI-based service that detects Aadhaar numbers in images using a **pre-trained YOLOv8 Aadhaar number detection model** and Tesseract OCR, then securely blurs and masks them (keeping only the last 4 digits). It includes REST endpoints for direct image masking and debugging, designed for quick deployment from a Colab notebook.
